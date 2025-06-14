@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio</title>
+</head>
+
+<body>
+
+    <header>
+        <h3><span class="highlight">A</span>rlondes.</h3>
+        <nav class="menu" aria-label="Menu">
+            <a aria-label="Home">Home</a>
+            <a aria-label="Services">Services</a>
+            <a href="https://meu-portifolio-pessoal.vercel.app/" target="_blank" haria-label="Portífolio">Port<span
+                    class="highlight">f</span>olio</a>
+            <a href="#contact" aria-label="Contact-me">Contato</a>
+
+        </nav>
+    </header>
+
+    <section>
+        <p>Developer front-end</p>
+        <h1>Hi, I'm <span class="highlight">Arlondes</span></h1>
+        <h2>I am From Brazil</h2>
+    </section>
+    <div class="container__Foto-1">
+        <img src="./assets/foto.png" alt="arlondes">
+    </div>
+    <article>
+        <img class="banner" src="assets/arlondes.png" alt="arlondes">
+        <h4>About me</h4>
+        <h5>Olá! Sou Arlondes, desenvolvedor com três anos de experiência e também trabalho como videomaker.<br>
+            Minha trajetória profissional alia tecnologia e criatividade para entregar soluções completas nos
+            universos<br>
+            digital e audiovisual..</h5>
+
+        <div class="about-tabs">
+            <button class="tab active" data-tab="skills">Habilidades</button>
+            <button class="tab" data-tab="experience">Experiência</button>
+            <button class="tab" data-tab="education">Educação</button>
+        </div>
+
+        <div class="tab-content active" id="skills">
+            <p><strong>EXPERIÊNCIAS INTERATIVAS:<br><br></strong> Habilidade em integrar vídeos com tecnologias web,
+                criando experiências visuais dinâmicas e interativas para sites,<BR> landing pages e plataformas
+                digitais.</p><br>
+            <p><strong>O que posso criar:<br><br></strong>
+
+                <li>Sites com vídeos que reagem ao scroll ou cliques</li>
+                <li>Landing pages com storytelling animado</li>
+                <li>Edição automatizada com scripts (ex: FFMPEG)</li>
+
+            </p>
+        </div>
+
+        <div class="tab-content" id="experience">
+            <p><strong>DESENVOLVEDOR FRONT_END:<br><br></strong> 2 anos de experiência com foco em<br> React, HTML,
+                CSS,
+                JavaScript e Python
+                no<BR> Back-end.</p><br>
+            <p><strong>VIDEO MAKER:<br><br></strong> <LI>Com foco em projetos para grandes e pequenas empresas.</LI></p>
+        </div>
+
+        <div class="tab-content" id="education">
+            <p><strong>GRADUAÇÃO:<br><br></strong> Analise e Desenvolvimento em Sistemas<br> cursando</p><br>
+            <p><strong>Cursos:<br><br></strong>
+                <li>DevClub</li>
+                <li>Alura</li>
+            </p>
+        </div>
+
+        <div>
+            <h4 class="servicos">MY SERVICES</h4>
+            <div class="artigos">
+                <img class="imagem1" src="./assets/camera.png">
+                <h6>Video Maker</h6>
+                <p>Produção de vídeos criativos e profissionais, do roteiro à edição, para marcas e projetos visuais
+                    de
+                    empresas.</p>
+            </div>
+            <div class="artigos">
+                <img class="imagem1" src="./assets/imagemdev.png">
+                <h6>Dev Web</h6>
+                <p>Desenvolvedor de paginas interativas, unindo design, programação e funcionalidade para um layout
+                    responsivo.</p>
+            </div>
+            <div class="artigos">
+                <img class="imagem1" src="./assets/App-store.png">
+                <h6>App dessign</h6>
+                <p>Design de interfaces mobile sob medida, focando na experiência do usuário e nas necessidades do
+                    cliente.</p>
+            </div>
+        </div>
+        <h4 class="servicos__dois">MY WORK</h4>
+
+        <div class="work-item">
+            <video autoplay muted loop playsinline>
+                <source src="./assets/filmaker.mp4" type="video/mp4">
+            </video>
+            <div class="sobrepor">
+                <div class="sobrepor-conteudo">
+                    <h3>Filmmaker Project</h3>
+                    <p>Projeto de edição e produção audiovisual.</p>
+                    <a href="#" target="_blank">🔗 Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-item">
+            <video autoplay muted loop playsinline>
+                <source src="./assets/programacao.mp4" type="video/mp4">
+            </video>
+            <div class="sobrepor">
+                <div class="sobrepor-conteudo">
+                    <h3>Programação</h3>
+                    <p>Vamos montar um site?.</p>
+                    <a href="#" target="_blank">🔗 Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-item">
+            <video autoplay muted loop playsinline>
+                <source src="./assets/mobile.mp4" type="video/mp4">
+            </video>
+            <div class="sobrepor">
+                <div class="sobrepor-conteudo">
+                    <h3>Mobile Project</h3>
+                    <p>Projetos de sites mobile.</p>
+                    <a href="#" target="_blank">🔗 Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <h4 class="servicos__tres">CONTACTE ME</h4>
+        </section>
+
+        <div class="formulario" action="https://formsubmit.co/arlondescarvalho@yahoo.com" method="POST">
+            <form>
+                <input name="user_name" placeholder="Seu nome ?" required>
+                <input name="user_email" placeholder="Seu e-mail ?" type="email" required>
+                <textarea name="message" placeholder="Quais serviços deseja consultar ?" required></textarea>
+
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type="hidden" name="_subject" value="Novo cliente">
+                <input type="hidden" name="_template" value="box">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="contato">
+            <div class="contato_container">
+                <img class="imagem2" src="./assets/e-mail.png">
+                <p>arlondescarvalho@yahoo.com</p>
+            </div>
+
+            <div class="contato_container">
+                <img class="imagem2 tel" src="./assets/telefone.png">
+                <p>+55 11 96520-2250</p>
+            </div>
+            <a href="https://facebook.com/macedolon.lon"><img src="./assets/facebook.png"></a>
+            <img src="./assets/twitter.png">
+            <a href="https://www.instagram.com/_carvalholon/?igsh=OTNpaDZsMWNzMXQ5&utm_source=qr#" target="_blank"><img src="./assets/instagram.png"></a>
+            <a href="https://www.linkedin.com/in/arlondes-macedo/" target="_blank"><img src="./assets/linkedin.png"></a>
+        </div>
+
+        
+    </article>
+    <footer id="contact">Site desenvolvido por Arlondes Carvalho</footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
