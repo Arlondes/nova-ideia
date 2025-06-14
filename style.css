@@ -476,9 +476,9 @@ footer {
     }
 
     article .banner {
-        width: 8rem;
+        width: 20rem;
         margin: 3rem;
-        margin-left: 9rem;
+        margin-left: 3rem;
     }
 
     article h4,
@@ -552,14 +552,15 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        gap: 5rem;
-        margin-top: 9rem;
-        margin-left: 6rem;
+        gap: 4rem;
+        margin-top: 8rem;
+        margin-left: 1rem;
     }
 
     .formulario input,
     .formulario textarea {
-        width: 100%;
+        width: 24rem;
+        
     }
 
     .contato {
