@@ -18,6 +18,51 @@ body {
     background-color: var(--corPrimary);
 }
 
+body {
+            font-family: Arial, sans-serif;
+        }
+        .formulario {
+            max-width: 500px;
+            margin: 50px auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #00a86b;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #008b5e;
+        }
+
+        /* Popup */
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            border-radius: 10px;
+            z-index: 9999;
+            text-align: center;
+        }
+        #popup h2 {
+            color: #00a86b;
+        }
+        #popup button {
+            margin-top: 15px;
+            background-color: #00a86b;
+        }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -515,12 +560,12 @@ footer {
     .sobrepor-conteudo {
         padding: 1px;
         text-align: center;
-        font-size: 0.1rem;
+        font-size: 1rem;
     }
 
     .sobrepor
     .sobrepor-conteudo h3 {
-        font-size: 0.9rem;
+        font-size: 1rem;
         bottom: 1rem;
     }
 
