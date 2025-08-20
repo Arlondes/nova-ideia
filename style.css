@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: var(--corPrimary);
+    background-color: #0B0808;
 }
 
 body {
@@ -41,7 +41,6 @@ body {
             background-color: #008b5e;
         }
 
-        /* Popup */
         #popup {
             display: none;
             position: fixed;
@@ -58,6 +57,11 @@ body {
         #popup h2 {
             color: #00a86b;
         }
+
+        #ppup p {
+            color: rgb(187, 186, 186);
+        }
+
         #popup button {
             margin-top: 15px;
             background-color: #00a86b;
@@ -149,9 +153,10 @@ section p {
 
 .container__Foto-1 img {
     position: fixed;
-    width: 69rem;
-    background: rgba(0, 0, 0, 0.8);
-    opacity: 69%;
+    width: 70rem;
+    height: 50rem;
+    /* background: rgba(0, 0, 0, 0.8); */
+    /* opacity: 69%; */
     z-index: -1;
     pointer-events: none;
 }
