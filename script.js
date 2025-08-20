@@ -46,5 +46,3 @@ document.addEventListener("DOMContentLoaded", function () {
     function fecharPopup() {
         document.getElementById('popup').style.display = 'none';
     }
-
- 
