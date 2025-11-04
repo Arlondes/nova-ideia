@@ -494,7 +494,6 @@ footer p strong {
   color: #fff; /* pode ajustar para a cor da sua identidade visual */
 }
 
-
 @media (max-width: 768px) {
     header {
         display: flex;
