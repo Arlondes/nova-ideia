@@ -483,6 +483,17 @@ footer {
     padding: 1px;
 }
 
+footer p {
+  font-size: 0.85rem;
+  color: #aaa;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+footer p strong {
+  color: #fff; /* pode ajustar para a cor da sua identidade visual */
+}
+
 
 @media (max-width: 768px) {
     header {
