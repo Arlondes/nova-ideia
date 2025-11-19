@@ -15,7 +15,8 @@
 }
 
 body {
-    background-color: #020E1C;
+    /* background-color: #0B0808; */
+    background-color: #020E1B;
 }
 
 body {
@@ -94,7 +95,8 @@ a:hover {
 }
 
 .highlight {
-    color: var(--corTerciaria);
+    height: 12rem;
+    color: rgb(245, 48, 48);
 }
 
 strong {
@@ -137,13 +139,7 @@ h5 {
     color: rgb(187, 186, 186);
 }
 
-section p {
-    color: var(--corParagrafo);
-    font-size: 2rem;
-    font-weight: 450;
-}
-
-.autor {
+ .autor {
   text-align: left;
   margin-left: 4rem;
   margin-top: -2rem;
@@ -166,6 +162,14 @@ section p {
 }
 
 
+section p {
+    color: var(--corParagrafo);
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+
+
 .container__Foto-1 {
     margin: -53rem 50rem;
     z-index: -1;
@@ -176,8 +180,6 @@ section p {
     position: fixed;
     width: 70rem;
     height: 50rem;
-    /* background: rgba(0, 0, 0, 0.8); */
-    /* opacity: 69%; */
     z-index: -1;
     pointer-events: none;
 }
@@ -475,12 +477,12 @@ form button:hover {
 }
 
 footer {
-    background-color: #212121;
+    background-color: #020E1C;
     color: white;
     text-align: center;
     bottom: 0;
     width: 100%;
-    padding: 1px;
+    padding: 2px;
 }
 
 footer p {
@@ -491,13 +493,22 @@ footer p {
   line-height: 1.6;
 }
 footer p strong {
-  color: #fff; /* pode ajustar para a cor da sua identidade visual */
+  color: #fff; 
 }
 
+
 @media (max-width: 768px) {
+    .highlight{
+        transform: scale(0.3);
+        width: 1rem;
+        height: 9rem;
+        margin-top: -7rem;
+        margin-left: -3rem;
+        
+    }
     header {
         display: flex;
-        padding: 2rem;
+        padding: 3rem;
         margin: 1rem;
         overflow-x: hidden;
     }
@@ -526,8 +537,9 @@ footer p strong {
     }
 
     section {
-        margin: 5rem 2rem;
+        margin: 2rem 1rem;
         text-align: center;
+        font-size: 1rem;
     }
 
     h1,
@@ -553,7 +565,7 @@ footer p strong {
 
     article {
         margin-top: 7rem;
-        background-color: rgb(10, 10, 10);
+        background-color: #020E1B;
         overflow: hidden;
         height: auto;
     }
